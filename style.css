@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+body{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    font: size 18px;
+    margin: 200;
+    padding: 100;
+    text-align: center;
+    justify-content: center;
+    background: skyblue
+  }
+  header{
+    margin:auto;
+    padding: 50;
+  }
+  /* Acá defino la alineación del menú*/
+  nav ul{
+    list-style: none;
+    display: inline-block;
+    padding:18px;
+ }
+
+ nav ul li{
+     float: left;
+     margin-top: 20px;
+ }
+
+
+h1 {
+   
+    justify-content: left;
+    color: gray;
+    background-color: skyblue;
+    border: 5px solid skyblue;
+    font: size 20px;
+  }
+
+  p {
+    color: black;}
+
+  /* resposive*/
+  .imagen {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    }
+
+  .Galería-section {
+     justify-content: center
+  }
+ 
+.contact-section {
+    padding: 3em;
+    justify-content: center
+  }
+.contact-form
+  {
+    justify-content: center 
+  }
+
+  .container-contact {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  .contact-section img {
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+  }
+  
+  /* centrado del form y concepto responsive*/
+ 
+   .form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;}
+
+.form-group textarea {
+  width: 150%;
+  height: 100px;
+  padding: 1.5em;
+  background: none;
+  border: 1px solid #fff;
+  color: #000;
+  justify-content: center;
+  margin: 0.5rem;
+}
+  .form button {
+    padding: 0.5em 1em;
+    margin: 0.5rem;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  
+}
+   /* diseño para un campo de email no válido del formulario */
+   input:invalid { 
+    border-color: #900;
+    background-color: #fdd;
+  }
+  
+  input:focus:invalid {
+    outline: none;
+  }
+  
+  /* Este es el diseño para nuestros mensajes de error */
+  .error {
+    width: 100%;
+    padding: 5em 1em;
+  
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+  
+    box-sizing: border-box;
+  }
+  
+  .error.active {
+    padding: 0.3em;
+  }
+  .form-group .btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border-radius: 20px;
+    border: 1px solid #fff
+    
+  }
+
+.footer a {
+  justify-content: center
+  
+}
+
+/* Estilos para pantallas más grandes*/
+@media (min-windth: 768px){
+
+}
+body {
+    font-size:20px;
+}
+h1 {
+font-size: 20px;
+}
+/* Estilos para pantallas mucho más grandes*/
+@media (min-windth: 1200px) {
+
+}
+body {
+    font-size:24px;
+}
+    h1 {
+   font-size: 26px;
+
+  }     
+  
